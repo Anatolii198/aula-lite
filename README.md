@@ -158,8 +158,9 @@ is not connected, instead of showing a button that leads nowhere.
 **Live demo of the full version:**
 https://aula-school-template.netlify.app
 
-Full version — $29: Payhip · Gumroad · Codester *(links added when it goes
-live)*
+Full version — $29:
+[Payhip](https://payhip.com/b/W3KOt) ·
+[Gumroad](https://tolya89.gumroad.com/l/aula-school)
 
 ---
 
