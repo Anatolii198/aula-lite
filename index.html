@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aula — online school of photography</title>
+<meta name="description" content="Three courses, 18 lessons, your own pace. Watch the first lesson free.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbf9f6">
+
+<!-- Open Graph. Before launch put your own address and a 1200×630 picture
+     here; og:image wants an absolute URL, not a relative one. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Online school of photography">
+<meta property="og:description" content="Three courses from the first manual frame to studio light. First lesson free.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c2572f'/%3E%3Cpath d='M9 22V10h5.5a3.5 3.5 0 0 1 0 7H9' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- The theme, before the first paint. Without these lines a visitor on the
+     light theme sees one dark frame while the page loads. -->
+<script>
+  try {
+    var saved = localStorage.getItem('aula-theme');
+    document.documentElement.dataset.theme =
+      saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  } catch (e) { /* private window: light stays */ }
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main" data-i18n="misc.skip">Skip to content</a>
+
+<!-- ======================================================= header ==== -->
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">A</span>
+      <span class="brand-txt">
+        <b data-name>Aula</b>
+        <i data-tagline>—</i>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html#courses" data-i18n="nav.courses">Courses</a>
+      <a href="index.html#how" data-i18n="nav.how">How it works</a>
+      <a href="index.html#teacher" data-i18n="nav.teacher">Teacher</a>
+    </nav>
+
+    <div class="tools">
+      <label class="sr" for="lang" data-i18n="nav.lang">Language</label>
+      <select id="lang" class="lang"></select>
+
+      <button class="icon" id="theme" type="button" aria-pressed="false">
+        <span class="sr" data-i18n="nav.theme">Light or dark</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4l1.8 1.8M16.8 16.8l1.8 1.8M18.6 5.4l-1.8 1.8M7.2 16.8l-1.8 1.8"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 14.2A8.4 8.4 0 019.8 4 8.4 8.4 0 1020 14.2z"/></svg>
+      </button>
+
+      <a class="btn btn-sm" href="course.html?id=basics" data-i18n="nav.start">Start learning</a>
+
+      <button class="icon burger" id="burger" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="sr" data-i18n="nav.menu">Menu</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 7h17M3.5 12h17M3.5 17h17"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================================================== first screen ==== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-in">
+      <div class="hero-txt">
+        <p class="eyebrow" data-i18n="hero.eyebrow">—</p>
+        <h1 class="h1" data-i18n="hero.h">—</h1>
+        <p class="lead" data-i18n="hero.p">—</p>
+        <div class="hero-cta">
+          <a class="btn btn-lg" href="index.html#courses" data-i18n="hero.cta">Choose a course</a>
+          <a class="btn btn-ghost btn-lg" href="lesson.html" data-trial data-i18n="hero.cta2">Watch the first lesson</a>
+        </div>
+        <p class="fine" data-i18n="hero.note">—</p>
+      </div>
+
+      <div class="hero-img">
+        <img src="img/hero.jpg" alt="" width="1400" height="1000">
+      </div>
+    </div>
+
+    <!-- three numbers; the values come from js/config.js -->
+    <ul class="figs" data-figs></ul>
+  </div>
+</section>
+
+<!-- ================================================== how it works ==== -->
+<section class="sec sec-alt" id="how">
+  <div class="wrap">
+    <header class="sec-h">
+      <p class="eyebrow" data-i18n="how.eyebrow">How it works</p>
+      <h2 class="h2" data-i18n="how.h">—</h2>
+    </header>
+    <div class="how">
+      <div class="how-i">
+        <h3 data-i18n="how.1">—</h3>
+        <p data-i18n="how.1.d">—</p>
+      </div>
+      <div class="how-i">
+        <h3 data-i18n="how.2">—</h3>
+        <p data-i18n="how.2.d">—</p>
+      </div>
+      <div class="how-i">
+        <h3 data-i18n="how.3">—</h3>
+        <p data-i18n="how.3.d">—</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================= courses ==== -->
+<section class="sec" id="courses">
+  <div class="wrap">
+    <header class="sec-h">
+      <p class="eyebrow" data-i18n="cat.eyebrow">Courses</p>
+      <h2 class="h2" data-i18n="cat.h">—</h2>
+      <p class="lead" data-i18n="cat.p">—</p>
+    </header>
+    <div class="cards" data-top-courses></div>
+  </div>
+</section>
+
+<!-- ======================================================= teacher ==== -->
+<section class="sec sec-alt" id="teacher">
+  <div class="wrap teacher">
+    <div class="teacher-img" data-teacher-photo></div>
+    <div class="teacher-txt">
+      <p class="eyebrow" data-i18n="teacher.h">Who teaches</p>
+      <h2 class="h2" data-teacher-name>—</h2>
+      <p class="meta" data-teacher-role>—</p>
+      <p class="lead" data-teacher-about>—</p>
+      <a class="btn" href="index.html#courses" data-i18n="teacher.cta">Choose a course</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================= reviews ==== -->
+<section class="sec">
+  <div class="wrap">
+    <header class="sec-h">
+      <h2 class="h2" data-i18n="rev.h">—</h2>
+    </header>
+    <div class="reviews" data-reviews></div>
+  </div>
+</section>
+
+<!-- ========================================================== band ==== -->
+<section class="band">
+  <div class="wrap band-in">
+    <div>
+      <h2 class="h2" data-i18n="cta.h">—</h2>
+      <p data-i18n="cta.p">—</p>
+    </div>
+    <a class="btn btn-lg" href="lesson.html" data-trial data-i18n="hero.cta2">Watch the first lesson</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================================================== footer ==== -->
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <h4 data-name>Aula</h4>
+      <p class="fine" data-tagline>—</p>
+    </div>
+    <div>
+      <h4 data-i18n="foot.courses">Courses</h4>
+      <ul data-foot-courses></ul>
+    </div>
+    <div>
+      <h4 data-i18n="foot.contact">Contact</h4>
+      <ul data-contacts></ul>
+    </div>
+    <div class="foot-end">
+      <p class="fine">© <span data-year>—</span> <span data-name>Aula</span>. <span data-i18n="foot.rights">All rights reserved.</span></p>
+      <p class="fine" data-i18n="foot.note">—</p>
+      <a class="fine up" href="#" data-i18n="foot.top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/courses.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

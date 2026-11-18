@@ -1,0 +1,42 @@
+Aula — photo credits
+============================================================
+
+Every photograph here comes from Unsplash and is used under the
+Unsplash License: free for commercial and non-commercial use, no
+permission or attribution required. https://unsplash.com/license
+
+They are placeholders so the template is complete on first open.
+Replace them with your own before your site goes live.
+
+⚠ The people in these photographs are not you and have signed no
+model release. The teacher's portrait in particular must be replaced.
+
+hero.jpg           A camera in both hands, a lesson outdoors
+                   https://images.unsplash.com/photo-1554048612-b6a482bc67e5
+
+teacher.jpg        The teacher with her camera
+                   https://images.unsplash.com/photo-1562583489-bf23ec64651d
+
+c-basics.jpg       Camera body and lens on a table
+                   https://images.unsplash.com/photo-1502982720700-bfff97f2ecac
+
+c-portrait.jpg     Shooting a portrait
+                   https://images.unsplash.com/photo-1549981832-2ba2ee913334
+
+c-light.jpg        A studio: light stand and tripod
+                   https://images.unsplash.com/photo-1648740678671-c37d78567ea8
+
+c-editing.jpg      Editing photographs on a laptop
+                   https://images.unsplash.com/photo-1744948961024-66baaafbb5dc
+
+c-street.jpg       Reportage on the street
+                   https://images.unsplash.com/photo-1513031300226-c8fb12de9ade
+
+c-mobile.jpg       Shooting with a phone
+                   https://images.unsplash.com/photo-1628646435405-09fd8f4be99d
+
+lesson.jpg         A dark studio — the lesson poster
+                   https://images.unsplash.com/photo-1727451139462-cd34008cd50b
+
+Each file was downloaded from that address at the size its slot needs,
+so the folder holds no originals larger than the page uses.
